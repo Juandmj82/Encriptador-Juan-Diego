@@ -114,3 +114,34 @@ footer {
     margin-top: auto;
 }
 
+/* Media query para pantallas más pequeñas, como teléfonos móviles */
+@media (max-width: 768px) {
+    body {
+        height: auto;
+    }
+
+    textarea {
+        font-size: 1rem; /* Reduce el tamaño de la fuente para móviles */
+        height: 120px;
+    }
+
+    img {
+        max-width: 50%; /* Ajusta el tamaño de la imagen para que sea más pequeña en móvil */
+    }
+
+    .textarea-container {
+        flex-direction: column; /* Asegúrate de que el contenido se apile verticalmente en móviles */
+        width: 90%; /* Ajusta el ancho en móviles */
+    }
+
+    .button-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    footer {
+        font-size: 1rem; /* Reduce el tamaño de la fuente del footer en móviles */
+        padding: 10px;
+    }
+}
+
