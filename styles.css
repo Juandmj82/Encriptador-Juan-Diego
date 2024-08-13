@@ -114,18 +114,3 @@ footer {
     margin-top: auto;
 }
 
-html, body {
-    height: 50%;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    min-height: 100vh; /* Asegura que el contenedor principal cubra toda la altura de la ventana */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
