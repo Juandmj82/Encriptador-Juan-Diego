@@ -114,3 +114,28 @@ footer {
     margin-top: auto;
   
 }
+@media (max-width: 768px){
+    .textarea-container {
+        flex-direction: column;
+        align-items; stretch;
+    }
+    
+    textarea {
+        margin-left: 0;
+    }
+
+    .button-group {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5px
+    }
+    
+    .button-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    img {
+        max-width: 50%;
+    }
+}
