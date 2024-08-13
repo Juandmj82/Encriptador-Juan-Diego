@@ -1,6 +1,6 @@
 body {
     font-family: "Special Elite", Arial, sans-serif;
-    background-image: url("/Images/Paper.jpg");
+    background-image: url("Images/Paper.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
@@ -8,11 +8,11 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: 100vh; 
+    min-height: 100vh; 
     display: flex;
     flex-direction: column;
     align-items: center; 
-    overflow: hidden; 
+    
 }
 
 header {
